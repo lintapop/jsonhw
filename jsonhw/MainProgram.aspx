@@ -9,7 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Literal ID="LiteralMessage" runat="server"></asp:Literal>
+            <span id="message" runat="server"></span>
+            <asp:Literal ID="ltlMessage" runat="server" />
         </div>
     </form>
 </body>
